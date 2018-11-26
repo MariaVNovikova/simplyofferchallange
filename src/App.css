@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  text-align: left;
+  position: relative;
+  height: 100vh;
+  
 }
 
 .App-logo {
@@ -8,14 +11,15 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+  min-height: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  
 }
 
 .App-link {
@@ -29,4 +33,78 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Beginers {
+background-color: lightgoldenrodyellow;
+height: 50%;
+width: 30%;
+float:left;
+margin-left: 20px;
+text-align: center;
+margin-top: 20px;
+position: relative;
+border-color: black;
+border-style: solid;
+border-width: 1.5px;
+}
+
+.Advance {
+  background-color: lightgreen;
+  height: 50%;
+  width: 30%;
+  float:left; 
+  margin-left: 20px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  border-color: black;
+  border-style: solid;
+  border-width: 1.5px;
+}
+
+
+.Expert {
+    background-color: lightsteelblue;
+    height: 50%;
+    width: 30%;
+    float:left;  
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    border-color: black;
+    border-style: solid;
+    border-width: 1.5px;
+    }
+
+.Window {
+    background-color: lightgrey;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.Input {
+  background-color: lightseagreen;
+  text-align: center;
+  height: 400px;
+  width: 300px;
+  z-index: 1;
+  margin-left: 45%;
+  position: absolute;
+}
+
+table {
+text-align: center;
+font-size: 10px;
+}
+
+.Art {
+position: relative;
+float:left; 
+margin-top: 15px;
+margin-left: 10px;
 }
