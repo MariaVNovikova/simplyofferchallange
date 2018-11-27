@@ -17,7 +17,6 @@ class Range extends Component {
     };
     this.showInput = this.showInput.bind(this)
     this.collectInput = this.collectInput.bind(this)
-    this.consolePrint = this.consolePrint.bind(this)
   }
 
 
@@ -31,6 +30,11 @@ class Range extends Component {
     this.setState({ inputValue: articles });
     this.setState({artUpload: true})
   }
+
+  // getPixlcode(art){
+  //   fetch()
+
+  // }
 
 
   render() {
@@ -47,8 +51,9 @@ class Range extends Component {
           </div>
         ) : null}
         {this.state.artUpload ? (this.state.inputValue.map((art,i) =>
+         // var pixlCode = getPixlCode(art);
           <div className="articles">
-            < Art code={art} />
+            < Art code={art}/>
           </div>
         )) : null}
       </div>
